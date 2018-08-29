@@ -23,7 +23,7 @@ $ npm run dev
 
 It will start the development server with [HMR](https://webpack.github.io/docs/hot-module-replacement) on top of it. It will also be running the Node server to use a proxy.
 
-> [http://localhost:3000](http://localhost:3000) — Development server
+> [http://localhost:3000](http://localhost:3000) — Development server <br>
 > [http://localhost:5000](http://localhost:5000) — Node.js server
 
 Now you can open [http://localhost:3000](http://localhost:3000) in browser and start developing.
