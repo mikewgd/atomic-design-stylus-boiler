@@ -7,7 +7,7 @@ const config = {
     basename: process.env.PUBLIC_PATH,
     isBrowser: typeof window !== 'undefined',
     apiUrl: '',
-    gtmId: 'GTM-WX5ZNVC',
+    gtmId: 'test',
   },
   test: {},
   development: {},

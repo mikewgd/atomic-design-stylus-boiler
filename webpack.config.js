@@ -122,7 +122,7 @@ const config = createConfig([
       historyApiFallback: { index: publicPath },
       headers: { 'Access-Control-Allow-Origin': '*' },
       proxy: {
-        '/get-portfolio': {
+        '/status': {
           target: 'http://localhost:5000',
           secure: false
         }

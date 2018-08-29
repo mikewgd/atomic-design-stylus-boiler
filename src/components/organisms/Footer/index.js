@@ -8,13 +8,13 @@ export default class Footer extends React.Component {
 
     this.items = [
       {
-        "name": "Terms and Conditions",
-        "to": "/terms-and-conditions",
+        "name": "home",
+        "to": "/",
         "disabled": false
       },
       {
-        "name": "Privacy Policy",
-        "to": "/privacy-policy",
+        "name": "sample",
+        "to": "/sample",
         "disabled": false
       }
     ]
@@ -32,29 +32,7 @@ export default class Footer extends React.Component {
       <React.Fragment>
         <div className="container py-4">
           <div className="row">
-            <div className="footer-logo col-3">
-              <img className="mb-3" src="/images/logo.png" />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.</p>
-            </div>
-
-            <div className="footer-nav col-9">
-              <div className="row">
-                <div className="col">
-                  <Heading className="footer-header" level={6}>company</Heading>
-                </div>
-
-                <div className="col">
-                  <Heading className="footer-header" level={6}>resources</Heading>
-                </div>
-
-                <div className="col">
-                  <Heading className="footer-header" level={6}>support</Heading>
-                </div>
-
-                <div className="col">
-                  <Heading className="footer-header" level={6}>social</Heading>
-                </div>
-              </div>
+            <div className="col-3">
             </div>
           </div>
         </div>
